@@ -35,7 +35,7 @@ alert(age);
 
 const user = {
     name: 'Polina',
-    age: 22,
+    height: 172,
     isAdmin: true,
 }
 user['city of residence'] = 'Nizhny Novgorod'
