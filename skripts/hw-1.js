@@ -36,5 +36,6 @@ alert(age);
 const user = {
     name: 'Polina',
     age: 22,
-    isAdmin: true
+    isAdmin: true,
 }
+user['city of residence'] = 'Nizhny Novgorod'
