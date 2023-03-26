@@ -33,8 +33,16 @@ alert(num);
 let age = prompt("Сколько вам лет?");
 alert(age);
 
+// const user = {
+//     name: 'Polina',
+//     height: 172,
+//     isAdmin: true,
+// }
+
+let info = prompt("Какую информацию хотите узнать о пользователе?");
 const user = {
+    age: 22,
     name: 'Polina',
-    height: 172,
-    isAdmin: true,
+    isAdmin: true
 }
+alert(user[info]);
