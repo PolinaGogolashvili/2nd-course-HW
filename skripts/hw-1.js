@@ -14,4 +14,6 @@ alert(c - b);
 alert(c * b);
 alert(c / b);
 
+const result = 2**5;
+alert(result);
 
