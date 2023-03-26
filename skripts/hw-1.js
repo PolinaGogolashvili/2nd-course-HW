@@ -39,6 +39,9 @@ alert(age);
 //     isAdmin: true,
 // }
 
+user['city of residence'] = 'Nizhny Novgorod';
+delete user.city of residence;
+
 let info = prompt("Какую информацию хотите узнать о пользователе?");
 const user = {
     age: 22,
