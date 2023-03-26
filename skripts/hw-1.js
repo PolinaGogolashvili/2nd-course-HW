@@ -32,3 +32,9 @@ alert(num);
 
 let age = prompt("Сколько вам лет?");
 alert(age);
+
+const user = {
+    name: 'Polina',
+    age: 22,
+    isAdmin: true
+}
