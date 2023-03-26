@@ -29,3 +29,6 @@ console.log(num /= 3);
 console.log(++num);
 console.log(--num);
 alert(num);
+
+let age = prompt("Сколько вам лет?");
+alert(age);
