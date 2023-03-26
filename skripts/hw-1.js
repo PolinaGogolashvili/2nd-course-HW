@@ -1,3 +1,5 @@
 let a = 20;
 alert(a);
-// Задание 1
+
+const iphoneYear = 2007;
+alert(iphoneYear);
