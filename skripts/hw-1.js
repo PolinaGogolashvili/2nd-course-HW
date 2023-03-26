@@ -46,3 +46,6 @@ const user = {
     isAdmin: true
 }
 alert(user[info]);
+
+let name = prompt('Как тебя зовут?');
+alert('Привет',[$name]);
