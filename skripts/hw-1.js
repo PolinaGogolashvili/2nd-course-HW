@@ -38,4 +38,3 @@ const user = {
     height: 172,
     isAdmin: true,
 }
-user['city of residence'] = 'Nizhny Novgorod'
