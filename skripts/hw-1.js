@@ -21,3 +21,11 @@ let a = 9;
 let b = 2;
 alert(a % b);
 
+let num = 1;
+console.log(num += 5);
+console.log(num -= 3);
+console.log(num *= 7);
+console.log(num /= 3);
+console.log(++num);
+console.log(--num);
+alert(num);
