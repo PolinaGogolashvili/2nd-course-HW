@@ -72,7 +72,7 @@
   color: #ffffff;
   text-decoration: none;
 }
-.games game-1 {
+.games__game_game-1 {
   background-image: url(img/game1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -81,7 +81,7 @@
   padding-left: 32px;
   padding-bottom: 32px;
 }
-.games game-2 {
+.games__game_game-2 {
   background-image: url(img/game2.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -90,7 +90,7 @@
   padding-left: 32px;
   padding-bottom: 32px;
 }
-.games game-3 {
+.games__game_game-3 {
   background-image: url(img/game3.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -134,4 +134,4 @@
   .games {
     height: 1221px;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
