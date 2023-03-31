@@ -58,6 +58,7 @@
   gap: 32px;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .games__game {
   display: flex;
@@ -71,7 +72,7 @@
   color: #ffffff;
   text-decoration: none;
 }
-.games__game-1 {
+.games game-1 {
   background-image: url(img/game1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -80,7 +81,7 @@
   padding-left: 32px;
   padding-bottom: 32px;
 }
-.games__game-2 {
+.games game-2 {
   background-image: url(img/game2.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -89,7 +90,7 @@
   padding-left: 32px;
   padding-bottom: 32px;
 }
-.games__game-3 {
+.games game-3 {
   background-image: url(img/game3.jpg);
   background-repeat: no-repeat;
   background-position: center;
