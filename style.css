@@ -208,5 +208,31 @@
   }
   .games {
     height: 1221px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .seasons {
+    flex-wrap: wrap;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .seasons__content {
+    text-align: center;
+  }
+  .seasons__content_title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .seasons__content_text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .seasons__pictures {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .seasons__pictures_picture {
+    width: 344px;
+    height: 236px;
   }
 }/*# sourceMappingURL=style.css.map */
