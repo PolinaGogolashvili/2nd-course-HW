@@ -50,6 +50,10 @@
   color: #ffffff;
   margin-top: 44px;
 }
+.top__button:hover {
+  background: #eb443f;
+  transform: scale(1.05);
+}
 
 .games {
   height: 556px;
@@ -81,6 +85,12 @@
   border-radius: 16px;
   padding-left: 32px;
   padding-bottom: 32px;
+  transition: all 1s;
+}
+.game-1:hover {
+  transform: scale(1);
+  border: 3px solid;
+  border-color: #44d2ff;
 }
 
 .game-2 {
@@ -91,6 +101,12 @@
   border-radius: 16px;
   padding-left: 32px;
   padding-bottom: 32px;
+  transition: all 1s;
+}
+.game-2:hover {
+  transform: scale(1);
+  border: 3px solid;
+  border-color: #44d2ff;
 }
 
 .game-3 {
@@ -101,6 +117,12 @@
   border-radius: 16px;
   padding-left: 32px;
   padding-bottom: 32px;
+  transition: all 1s;
+}
+.game-3:hover {
+  transform: scale(1);
+  border: 3px solid;
+  border-color: #44d2ff;
 }
 
 .seasons {
@@ -140,6 +162,10 @@
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;
+}
+.seasons__content_button:hover {
+  background: #eb443f;
+  transform: scale(1.05);
 }
 .seasons__pictures {
   padding-left: 135px;
