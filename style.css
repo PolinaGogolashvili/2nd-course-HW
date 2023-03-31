@@ -72,7 +72,8 @@
   color: #ffffff;
   text-decoration: none;
 }
-.games__game-1 {
+
+.game-1 {
   background-image: url(img/game1.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -81,7 +82,8 @@
   padding-left: 32px;
   padding-bottom: 32px;
 }
-.games__game-2 {
+
+.game-2 {
   background-image: url(img/game2.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -90,7 +92,8 @@
   padding-left: 32px;
   padding-bottom: 32px;
 }
-.games__game-3 {
+
+.game-3 {
   background-image: url(img/game3.jpg);
   background-repeat: no-repeat;
   background-position: center;
