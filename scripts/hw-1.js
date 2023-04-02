@@ -10,8 +10,17 @@
 //   b++;
 // }
 
-let c = 7;
-while (c <= 22) {
-  console.log(c);
-  c++;
+// let c = 7;
+// while (c <= 22) {
+//   console.log(c);
+//   c++;
+// }
+
+const obj = {
+  Коля: "200",
+  Вася: "300",
+  Петя: "400",
+};
+for (let key in obj) {
+  console.log(`${key} - доход ${obj[key]}`);
 }
