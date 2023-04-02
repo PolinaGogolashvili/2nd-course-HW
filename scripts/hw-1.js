@@ -1,28 +1,29 @@
 // let password = "пароль";
 // let result = prompt("Введите пароль");
-// if (result = "пароль") {
+// if (result === "пароль") {
 //   alert("Доступ разрешен");
 // } else {
 //   alert("Пароль введен неправильно");
 // }
 
-// let c = -3;
-// c >= 0 && alert("Верно");
-// if (c <= 0) {
-//   alert("Неверно");
+// let c = 11;
+// if (c >= 0 && c < 10) {
+//   console.log("Верно");
+// } else {
+//   console.log("Неверно");
 // }
 
-// let d = 38;
-// let e = 122;
-// d || e > 100;
-// alert("Верно");
-// if (d || e < 100) {
+// let d = 133;
+// let e = 1;
+// if (d < 100 || e < 100) {
 //   alert("Неверно");
+// } else {
+//   alert("Верно");
 // }
 
-// let a = 2;
-// let b = 3;
-// alert(a + b);
+// let a = '2';
+// let b = '3';
+// alert(Number(a) + Number (b));
 
 // let monthNumber = String(prompt("Введите номер месяца"));
 // switch (monthNumber) {
