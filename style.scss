@@ -171,4 +171,54 @@
     }
   }
 }
+.words {
+  height: 800px;
+  display: flex;
+
+  background-color: #000915;
+  padding-left: 120px;
+  padding-right: 120px;
+  align-items: center;
+  &__content {
+    padding-left: 135px;
+    &_title {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 59px;
+      color: #ffffff;
+      padding-bottom: 32px;
+    }
+    &_text {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 32px;
+      color: #ffffff;
+      padding-bottom: 32px;
+    }
+    &_button {
+      width: 234.06px;
+      height: 48.6px;
+      background: #9c0332;
+      border-radius: 30px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #ffffff;
+      &:hover {
+        background: #eb443f;
+        transform: scale(1.05);
+      }
+    }
+  }
+  &__pictures_picture {
+    width: 485px;
+    height: 333px;
+  }
+}
 @import "mobile";
