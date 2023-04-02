@@ -16,11 +16,20 @@
 //   c++;
 // }
 
-const obj = {
-  Коля: "200",
-  Вася: "300",
-  Петя: "400",
-};
-for (let key in obj) {
-  console.log(`${key} - доход ${obj[key]}`);
+// const obj = {
+//   Коля: "200",
+//   Вася: "300",
+//   Петя: "400",
+// };
+// for (let key in obj) {
+//   console.log(`${key} - доход ${obj[key]}`);
+// }
+
+let n = 1000;
+let num = 0;
+while (n >= 50) {
+  n /= 2;
+  num++;
 }
+console.log(n);
+console.log(num);
