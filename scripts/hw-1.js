@@ -25,11 +25,17 @@
 //   console.log(`${key} - доход ${obj[key]}`);
 // }
 
-let n = 1000;
-let num = 0;
-while (n >= 50) {
-  n /= 2;
-  num++;
+// let n = 1000;
+// let num = 0;
+// while (n >= 50) {
+//   n /= 2;
+//   num++;
+// }
+// console.log(n);
+// console.log(num);
+
+let friday = 7;
+while (friday <= 21) {
+  friday += 7;
 }
-console.log(n);
-console.log(num);
+console.log(friday);
