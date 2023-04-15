@@ -19,7 +19,15 @@
 // }
 // CheckNumber(7);
 
-function calc(a) {
-  console.log(a ** 2);
+// function calc(a) {
+//   console.log(a ** 2);
+// }
+// calc(9);
+
+function calc(a, b) {
+  return a ** b;
 }
-calc(9);
+
+let result = calc(4, 2);
+
+alert(result);
