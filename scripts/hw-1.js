@@ -1,11 +1,20 @@
-let a = prompt("Введите первое число");
-let b = prompt("Введите второе число");
+// let a = prompt("Введите первое число");
+// let b = prompt("Введите второе число");
 
-function Compare(a, b) {
-  if (a < b) {
-    return a;
+// function Compare(a, b) {
+//   if (a < b) {
+//     return a;
+//   } else {
+//     return b;
+//   }
+// }
+// console.log(Compare(a, b));
+
+function CheckNumber(a) {
+  if (a % 2 === 0) {
+    return console.log("Число четное");
   } else {
-    return b;
+    return console.log("Число нечетное");
   }
 }
-console.log(Compare(a, b));
+CheckNumber(7);
