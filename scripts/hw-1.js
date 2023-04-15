@@ -1,52 +1,43 @@
-// let password = "пароль";
-// let result = prompt("Введите пароль");
-// if (result === "пароль") {
-//   alert("Доступ разрешен");
-// } else {
-//   alert("Пароль введен неправильно");
+// let a = 1;
+// while (a <= 2) {
+//   console.log("Привет!");
+//   a++;
 // }
 
-// let c = 11;
-// if (c >= 0 && c < 10) {
-//   console.log("Верно");
-// } else {
-//   console.log("Неверно");
+// let b = 1;
+// while (b <= 5) {
+//   console.log(b);
+//   b++;
 // }
 
-// let d = 133;
-// let e = 1;
-// if (d < 100 || e < 100) {
-//   alert("Неверно");
-// } else {
-//   alert("Верно");
+// let c = 7;
+// while (c <= 22) {
+//   console.log(c);
+//   c++;
 // }
 
-// let a = '2';
-// let b = '3';
-// alert(Number(a) + Number (b));
-
-// let monthNumber = String(prompt("Введите номер месяца"));
-// switch (monthNumber) {
-//   case "1":
-//   case "2":
-//   case "12":
-//     console.log("Зима");
-//     break;
-//   case "3":
-//   case "4":
-//   case "5":
-//     console.log("Весна");
-//     break;
-//   case "6":
-//   case "7":
-//   case "8":
-//     console.log("Лето");
-//     break;
-//   case "9":
-//   case "10":
-//   case "11":
-//     console.log("Осень");
-//     break;
-//   default:
-//     console.log("Неверное значение");
+// const obj = {
+//   Коля: "200",
+//   Вася: "300",
+//   Петя: "400",
+// };
+// for (let key in obj) {
+//   console.log(`${key} - доход ${obj[key]}`);
 // }
+
+// let n = 1000;
+// let num = 0;
+// while (n >= 50) {
+//   n /= 2;
+//   num++;
+// }
+// console.log(n);
+// console.log(num);
+
+for (let day = 7; day <= 31; day += 7) {
+  if (day <= 31 && day + 7) {
+    console.log(
+      `Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`
+    );
+  }
+}
