@@ -32,16 +32,36 @@
 
 // alert(result);
 
+// function sayHi() {
+//   let age = Number(prompt("Сколько вам лет?"));
+//   if (age < 0) {
+//     console.log("Вы ввели неправильное значение");
+//   } else if (age >= 0 && age <= 12) {
+//     console.log("Привет, друг!");
+//   } else if (age >= 13) {
+//     console.log("Добро пожаловать!");
+//   }
+// }
+// sayHi();
 
+let a = Number(prompt("Введите первое число"));
+let b = Number(prompt("Введите второе число"));
 
-function sayHi() {
-  let age = Number(prompt("Сколько вам лет?"));
-  if (age < 0) {
-    console.log("Вы ввели неправильное значение");
-  } else if (age >= 0 && age <= 12) {
-    console.log("Привет, друг!");
-  } else if (age >= 13) {
-    console.log("Добро пожаловать!");
+function checkNumber() {
+  if (isNaN(a && b)) {
+    return console.log("Одно или оба значения не являются числом");
+  } else {
+    return console.log(a * b);
   }
 }
-sayHi();
+checkNumber();
+
+// function checkNumber() {
+//   let input = prompt("Введите число");
+//   if (isNaN(input)) {
+//     return console.log("Некорректное значение");
+//   } else {
+//     return console.log(input * 3);
+//   }
+// }
+// checkNumber();
