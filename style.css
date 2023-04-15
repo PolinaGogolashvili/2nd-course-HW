@@ -343,4 +343,20 @@
     width: 344px;
     height: 236px;
   }
+  .riddles {
+    flex-wrap: wrap;
+    padding-left: 16px;
+    padding-right: 16px;
+    justify-content: flex-start;
+  }
+  .riddles__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .riddles__text {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    line-height: 22px;
+  }
 }/*# sourceMappingURL=style.css.map */
