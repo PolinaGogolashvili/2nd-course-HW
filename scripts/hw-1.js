@@ -34,8 +34,10 @@
 // console.log(n);
 // console.log(num);
 
-let i=0;
-while (i<6) {
-  console.log(i)
-  i++
+for (let day = 7; day <= 31; day += 7) {
+  if (day <= 31 && day + 7) {
+    console.log(
+      `Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`
+    );
+  }
 }
