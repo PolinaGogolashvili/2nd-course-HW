@@ -24,10 +24,24 @@
 // }
 // calc(9);
 
-function calc(a, b) {
-  return a ** b;
+// function calc(a, b) {
+//   return a ** b;
+// }
+
+// let result = calc(4, 2);
+
+// alert(result);
+
+
+
+function sayHi() {
+  let age = Number(prompt("Сколько вам лет?"));
+  if (age < 0) {
+    console.log("Вы ввели неправильное значение");
+  } else if (age >= 0 && age <= 12) {
+    console.log("Привет, друг!");
+  } else if (age >= 13) {
+    console.log("Добро пожаловать!");
+  }
 }
-
-let result = calc(4, 2);
-
-alert(result);
+sayHi();
