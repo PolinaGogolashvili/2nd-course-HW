@@ -35,7 +35,10 @@
 // console.log(num);
 
 let friday = 7;
-while (friday <= 21) {
+while (friday <= 31) {
+  console.log(
+    "Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет."
+  );
   friday += 7;
 }
 console.log(friday);
