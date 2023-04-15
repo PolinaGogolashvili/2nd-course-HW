@@ -258,6 +258,22 @@
   padding-bottom: 32px;
 }
 
+.rights {
+  background-color: #000915;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rights__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
 @media (max-width: 734px) {
   .center {
     padding-left: 16px;
