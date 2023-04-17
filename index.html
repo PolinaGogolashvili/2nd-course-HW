@@ -36,7 +36,26 @@
             Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы
             узнаете к какому времени года он относится
           </p>
-          <button class="seasons__content_button">Играть!</button>
+          <button onclick="monthNumber()" class="seasons__content_button">
+            Играть!
+          </button>
+          <script>
+            function monthNumber() {
+              let month = Number(prompt("Введите номер месяца"));
+              if (month <= 0 || month > 12) {
+                alert("Ну и че ты ввел, дурачок?)");
+              } else if (month <= 2 || month === 12) {
+                alert("Зима");
+              } else if (month === 3 || month <= 5) {
+                alert("Весна");
+              } else if (month === 6 || month <= 8) {
+                alert("Лето");
+              } else if (month === 9 || month <= 11) {
+                alert("Осень");
+              }
+            }
+            monthNumber();
+          </script>
         </div>
         <div class="seasons__pictures">
           <img
@@ -54,20 +73,23 @@
           />
         </div>
         <div class="words__content">
-          <h3 class="words__content_title">Запомни слова </h3>
+          <h3 class="words__content_title">Запомни слова</h3>
           <p class="words__content_text">
-            При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.
+            При нажатии на кнопку играть, вы увидите несколько слов, которые вам
+            необходимо запомнить.
           </p>
           <button class="words__content_button">Играть!</button>
         </div>
       </div>
 
       <div class="riddles">
-          <h3 class="riddles__title">Игра в загадки </h3>
-          <p class="riddles__text">
-            Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.
-          </p>
-          <button class="words__content_button">Играть!</button>
+        <h3 class="riddles__title">Игра в загадки</h3>
+        <p class="riddles__text">
+          Компьютер загадывает загадку, вам необходимо ее угадать, если вы
+          дадите не правильный ответ, то компьютер даст вам подсказку. У вас
+          будет три попытки и две подсказки.
+        </p>
+        <button class="words__content_button">Играть!</button>
       </div>
 
       <div class="rights">
