@@ -44,17 +44,17 @@
 // }
 // sayHi();
 
-let a = Number(prompt("Введите первое число"));
-let b = Number(prompt("Введите второе число"));
+// let a = Number(prompt("Введите первое число"));
+// let b = Number(prompt("Введите второе число"));
 
-function checkNumber() {
-  if (isNaN(a && b)) {
-    return console.log("Одно или оба значения не являются числом");
-  } else {
-    return console.log(a * b);
-  }
-}
-checkNumber();
+// function checkNumber() {
+//   if (isNaN(a && b)) {
+//     return console.log("Одно или оба значения не являются числом");
+//   } else {
+//     return console.log(a * b);
+//   }
+// }
+// checkNumber();
 
 // function checkNumber() {
 //   let input = prompt("Введите число");
@@ -65,3 +65,31 @@ checkNumber();
 //   }
 // }
 // checkNumber();
+
+
+
+function getCircleArea () {
+  return this.radius ** 2 * 3,14;
+}
+function getCirclePerimeter() {
+  return 2 * 3,14 * this.radius; 
+}
+
+const circle1 = {
+  radius: 5,
+
+  getArea: getCircleArea,
+  getPerimeter: getCirclePerimeter,
+};
+
+const circle2 = {
+  radius: 7,
+
+  getArea: getCircleArea,
+  getPerimeter: getCirclePerimeter,
+};
+
+console.log(circle1.getArea());
+console.log(circle1.getPerimeter());
+console.log(circle2.getArea());
+console.log(circle2.getPerimeter());
