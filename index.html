@@ -43,7 +43,7 @@
             function monthNumber() {
               let month = Number(prompt("Введите номер месяца"));
               if (month <= 0 || month > 12) {
-                alert("Ну и че ты ввел, дурачок?)");
+                alert("Неверное значение");
               } else if (month <= 2 || month === 12) {
                 alert("Зима");
               } else if (month === 3 || month <= 5) {
@@ -54,7 +54,6 @@
                 alert("Осень");
               }
             }
-            monthNumber();
           </script>
         </div>
         <div class="seasons__pictures">

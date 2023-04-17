@@ -1,23 +1,23 @@
 // let a = prompt("Введите первое число");
 // let b = prompt("Введите второе число");
 
-// function Compare(a, b) {
+// function compare(a, b) {
 //   if (a < b) {
 //     return a;
 //   } else {
 //     return b;
 //   }
 // }
-// console.log(Compare(a, b));
+// console.log(compare(a, b));
 
-// function CheckNumber(a) {
+// function checkNumber(a) {
 //   if (a % 2 === 0) {
 //     return console.log("Число четное");
 //   } else {
 //     return console.log("Число нечетное");
 //   }
 // }
-// CheckNumber(7);
+// checkNumber(7);
 
 // function calc(a) {
 //   console.log(a ** 2);
@@ -48,7 +48,7 @@
 // let b = Number(prompt("Введите второе число"));
 
 // function checkNumber() {
-//   if (isNaN(a && b)) {
+//   if (isNaN(a) || isNaN(b))) {
 //     return console.log("Одно или оба значения не являются числом");
 //   } else {
 //     return console.log(a * b);
