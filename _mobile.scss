@@ -83,4 +83,20 @@
       }
     }
   }
+  .riddles {
+    flex-wrap: wrap;
+    padding-left: 16px;
+    padding-right: 16px;
+    justify-content: flex-start;
+    &__title {
+      font-size: 32px;
+      line-height: 39px;
+    }
+    &__text {
+      padding-left: 16px;
+      padding-right: 16px;
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }
 }

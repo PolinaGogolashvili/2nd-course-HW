@@ -225,6 +225,55 @@
   height: 333px;
 }
 
+.riddles {
+  height: 800px;
+  background-image: url(img/bgi2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.riddles__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
+  padding-bottom: 32px;
+}
+.riddles__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 32px;
+}
+
+.rights {
+  background-color: #000915;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rights__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
 @media (max-width: 734px) {
   .center {
     padding-left: 16px;
@@ -309,5 +358,21 @@
   .words__pictures_picture {
     width: 344px;
     height: 236px;
+  }
+  .riddles {
+    flex-wrap: wrap;
+    padding-left: 16px;
+    padding-right: 16px;
+    justify-content: flex-start;
+  }
+  .riddles__title {
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .riddles__text {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    line-height: 22px;
   }
 }/*# sourceMappingURL=style.css.map */

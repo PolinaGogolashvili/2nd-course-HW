@@ -1,43 +1,95 @@
-// let a = 1;
-// while (a <= 2) {
-//   console.log("Привет!");
-//   a++;
+// let a = prompt("Введите первое число");
+// let b = prompt("Введите второе число");
+
+// function compare(a, b) {
+//   if (a < b) {
+//     return a;
+//   } else {
+//     return b;
+//   }
+// }
+// console.log(compare(a, b));
+
+// function checkNumber(a) {
+//   if (a % 2 === 0) {
+//     return console.log("Число четное");
+//   } else {
+//     return console.log("Число нечетное");
+//   }
+// }
+// checkNumber(7);
+
+// function calc(a) {
+//   console.log(a ** 2);
+// }
+// calc(9);
+
+// function calc(a, b) {
+//   return a ** b;
 // }
 
-// let b = 1;
-// while (b <= 5) {
-//   console.log(b);
-//   b++;
+// let result = calc(4, 2);
+
+// alert(result);
+
+// function sayHi() {
+//   let age = Number(prompt("Сколько вам лет?"));
+//   if (age < 0) {
+//     console.log("Вы ввели неправильное значение");
+//   } else if (age >= 0 && age <= 12) {
+//     console.log("Привет, друг!");
+//   } else if (age >= 13) {
+//     console.log("Добро пожаловать!");
+//   }
+// }
+// sayHi();
+
+// let a = Number(prompt("Введите первое число"));
+// let b = Number(prompt("Введите второе число"));
+
+// function checkNumber() {
+//   if (isNaN(a) || isNaN(b))) {
+//     return console.log("Одно или оба значения не являются числом");
+//   } else {
+//     return console.log(a * b);
+//   }
+// }
+// checkNumber();
+
+// function checkNumber() {
+//   let input = prompt("Введите число");
+//   if (isNaN(input)) {
+//     return console.log("Некорректное значение");
+//   } else {
+//     return console.log(input * 3);
+//   }
+// }
+// checkNumber();
+
+
+
+// function getCircleArea () {
+//   return this.radius ** 2 * 3,14;
+// }
+// function getCirclePerimeter() {
+//   return 2 * 3,14 * this.radius; 
 // }
 
-// let c = 7;
-// while (c <= 22) {
-//   console.log(c);
-//   c++;
-// }
+// const circle1 = {
+//   radius: 5,
 
-// const obj = {
-//   Коля: "200",
-//   Вася: "300",
-//   Петя: "400",
+//   getArea: getCircleArea,
+//   getPerimeter: getCirclePerimeter,
 // };
-// for (let key in obj) {
-//   console.log(`${key} - доход ${obj[key]}`);
-// }
 
-// let n = 1000;
-// let num = 0;
-// while (n >= 50) {
-//   n /= 2;
-//   num++;
-// }
-// console.log(n);
-// console.log(num);
+// const circle2 = {
+//   radius: 7,
 
-for (let day = 7; day <= 31; day += 7) {
-  if (day <= 31 && day + 7) {
-    console.log(
-      `Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`
-    );
-  }
-}
+//   getArea: getCircleArea,
+//   getPerimeter: getCirclePerimeter,
+// };
+
+// console.log(circle1.getArea());
+// console.log(circle1.getPerimeter());
+// console.log(circle2.getArea());
+// console.log(circle2.getPerimeter());
