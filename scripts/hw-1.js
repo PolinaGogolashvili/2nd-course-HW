@@ -33,8 +33,18 @@
 
 
 
-let arr = [1, 1, 1];
+// let arr = [1, 1, 1];
 
-arr.push(2, 2, 2);
+// arr.push(2, 2, 2);
+
+// console.log(arr);
+
+
+
+let arr = [9, 8, 7, 'a', 6, 5];
+
+arr = arr.sort();
+
+console.log(arr.pop());
 
 console.log(arr);
