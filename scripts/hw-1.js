@@ -41,10 +41,23 @@
 
 
 
-let arr = [9, 8, 7, 'a', 6, 5];
+// let arr = [9, 8, 7, 'a', 6, 5];
 
-arr = arr.sort();
+// arr = arr.sort();
 
-console.log(arr.pop());
+// console.log(arr.pop());
 
-console.log(arr);
+// console.log(arr);
+
+
+
+let userNumber = Number(prompt("Введите число от 1 до 10"));
+
+let numbers = [9, 8, 7, 6, 5];
+
+if (userNumber <= 0 || isNaN(userNumber)) {
+  console.log("Неверное значение"); 
+} else if (userNumber >= 1 || userNumber <= 10) {
+ let search = numbers.includes(userNumber);
+ console.log(search);
+}
