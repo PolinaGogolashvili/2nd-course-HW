@@ -15,8 +15,18 @@
 
 
 
-let numbers = [1, 3, 5, 10, 20];
+// let numbers = [1, 3, 5, 10, 20];
 
-numbers = numbers.join(" ");
+// numbers = numbers.join(" ");
 
-console.log(numbers);
+// console.log(numbers);
+
+
+
+let arr = [
+  [1, 1, 1],
+  [1, 1, 1],
+  [1, 1, 1]
+];
+
+console.log(arr);
