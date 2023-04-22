@@ -91,9 +91,15 @@
 
 
 
-const square = [3, 8, 6, 1, 9, 5, 10, 7, 4, 2];
-let result = square.map(item => (item ** 2));
-console.log(result);
+// const square = [3, 8, 6, 1, 9, 5, 10, 7, 4, 2];
+// let result = square.map(item => (item ** 2));
+// console.log(result);
+
+
+
+const getLengthWords = result => result.map(str => str.length);
+console.log(getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']));
+
 
 
 
