@@ -97,8 +97,13 @@
 
 
 
-const getLengthWords = result => result.map(str => str.length);
-console.log(getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']));
+// const getLengthWords = result => result.map(str => str.length);
+// console.log(getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']));
+
+
+
+const newNumbs = numbs => numbs.map(el => (el * (-1)));
+console.log(newNumbs([3, 8, 6, 1, 9, 5, 10, 7, 4, 2]));
 
 
 
