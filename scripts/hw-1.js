@@ -23,6 +23,8 @@
 
 
 
+
+
 // let arr = [
 //   [1, 1, 1],
 //   [1, 1, 1],
@@ -33,11 +35,15 @@
 
 
 
+
+
 // let arr = [1, 1, 1];
 
 // arr.push(2, 2, 2);
 
 // console.log(arr);
+
+
 
 
 
@@ -51,12 +57,14 @@
 
 
 
+
+
 // let userNumber = Number(prompt("Введите число от 1 до 10"));
 
 // let numbers = [9, 8, 7, 6, 5];
 
 // if (userNumber <= 0 || isNaN(userNumber)) {
-//   console.log("Неверное значение"); 
+//   console.log("Неверное значение");
 // } else if (userNumber >= 1 || userNumber <= 10) {
 //  let search = numbers.includes(userNumber);
 //  console.log(search);
@@ -64,10 +72,9 @@
 
 
 
-let arr = 'abcdef';
 
-arr.split('');
 
+let arr = "abcdef";
+arr = arr.split(" ");
 arr.reverse();
-
 console.log(arr);
