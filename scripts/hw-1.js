@@ -84,10 +84,16 @@
 // console.log(array.reduce((flat, current) => flat.concat(current, [])));
 
 
-let array = [3, 8, 6, 1, 9, 5, 10, 7, 4, 2];
-for(i = 0; i < (array.length - 1); i++) {
-console.log(array[i] + array[i + 1]);
-}
+// let array = [3, 8, 6, 1, 9, 5, 10, 7, 4, 2];
+// for(i = 0; i < (array.length - 1); i++) {
+// console.log(array[i] + array[i + 1]);
+// }
+
+
+
+const square = [3, 8, 6, 1, 9, 5, 10, 7, 4, 2];
+let result = square.map(item => (item ** 2));
+console.log(result);
 
 
 
