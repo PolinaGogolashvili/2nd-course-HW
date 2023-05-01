@@ -7,9 +7,9 @@
 
 
 
-const numbers = [1, 5, 4, 10, 0, 3];
+// const numbers = [1, 5, 4, 10, 0, 3];
 
-console.log(numbers.indexOf(4));                                                                                                                                                                                                                     
+// console.log(numbers.indexOf(4));                                                                                                                                                                                                                     
 
 
 
@@ -21,14 +21,15 @@ console.log(numbers.indexOf(4));
 
 
 
+let arr = [];
 
-// let arr = [
-//   [1, 1, 1],
-//   [1, 1, 1],
-//   [1, 1, 1]
-// ];
-
-// console.log(arr);
+  for(let i = 0; i < 3; i++) {
+    (arr[i] = [])*3; 
+    for(let j = 0; j < 3; j++) {
+      arr[i].push(1);
+    } 
+  }
+console.log(arr);
 
 
 
