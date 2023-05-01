@@ -21,15 +21,15 @@
 
 
 
-let arr = [];
+// let arr = [];
 
-  for(let i = 0; i < 3; i++) {
-    (arr[i] = [])*3; 
-    for(let j = 0; j < 3; j++) {
-      arr[i].push(1);
-    } 
-  }
-console.log(arr);
+//   for(let i = 0; i < 3; i++) {
+//     (arr[i] = [])*3; 
+//     for(let j = 0; j < 3; j++) {
+//       arr[i].push(1);
+//     } 
+//   }
+// console.log(arr);
 
 
 
@@ -91,8 +91,8 @@ console.log(arr);
 // console.log(getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']));
 
 
-// const newNumbs = numbs => numbs.map(el => (el * (-1)));
-// console.log(newNumbs([3, 8, 6, 1, 9, 5, 10, 7, 4, 2]));
+const newNumbs = numbs => numbs.filter(el => (el < 0));
+console.log(newNumbs([3, -8, 6, 1, -9, 5, -10, 7, 4, 2]));
 
 
 
