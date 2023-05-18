@@ -1,95 +1,101 @@
-// let a = prompt("Введите первое число");
-// let b = prompt("Введите второе число");
+// const numbers = [1, 5, 4, 10, 0, 3];
 
-// function compare(a, b) {
-//   if (a < b) {
-//     return a;
-//   } else {
-//     return b;
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] == 0) break;
+//   console.log(numbers[i]);
+// }
+
+
+
+// const numbers = [1, 5, 4, 10, 0, 3];
+
+// console.log(numbers.indexOf(4));                                                                                                                                                                                                                     
+
+
+
+// let numbers = [1, 3, 5, 10, 20];
+
+// numbers = numbers.join(" ");
+
+// console.log(numbers);
+
+
+
+// let arr = [];
+
+//   for(let i = 0; i < 3; i++) {
+//     (arr[i] = [])*3; 
+//     for(let j = 0; j < 3; j++) {
+//       arr[i].push(1);
+//     } 
 //   }
-// }
-// console.log(compare(a, b));
-
-// function checkNumber(a) {
-//   if (a % 2 === 0) {
-//     return console.log("Число четное");
-//   } else {
-//     return console.log("Число нечетное");
-//   }
-// }
-// checkNumber(7);
-
-// function calc(a) {
-//   console.log(a ** 2);
-// }
-// calc(9);
-
-// function calc(a, b) {
-//   return a ** b;
-// }
-
-// let result = calc(4, 2);
-
-// alert(result);
-
-// function sayHi() {
-//   let age = Number(prompt("Сколько вам лет?"));
-//   if (age < 0) {
-//     console.log("Вы ввели неправильное значение");
-//   } else if (age >= 0 && age <= 12) {
-//     console.log("Привет, друг!");
-//   } else if (age >= 13) {
-//     console.log("Добро пожаловать!");
-//   }
-// }
-// sayHi();
-
-// let a = Number(prompt("Введите первое число"));
-// let b = Number(prompt("Введите второе число"));
-
-// function checkNumber() {
-//   if (isNaN(a) || isNaN(b))) {
-//     return console.log("Одно или оба значения не являются числом");
-//   } else {
-//     return console.log(a * b);
-//   }
-// }
-// checkNumber();
-
-// function checkNumber() {
-//   let input = prompt("Введите число");
-//   if (isNaN(input)) {
-//     return console.log("Некорректное значение");
-//   } else {
-//     return console.log(input * 3);
-//   }
-// }
-// checkNumber();
+// console.log(arr);
 
 
 
-// function getCircleArea () {
-//   return this.radius ** 2 * 3,14;
-// }
-// function getCirclePerimeter() {
-//   return 2 * 3,14 * this.radius; 
+
+// let arr = [1, 1, 1];
+
+// arr.push(2, 2, 2);
+
+// console.log(arr);
+
+
+
+
+// let arr = [9, 8, 7, 'a', 6, 5];
+
+// arr = arr.sort();
+
+// console.log(arr.pop());
+
+// console.log(arr);
+
+
+
+
+// let userNumber = Number(prompt("Введите число от 1 до 10"));
+
+// let numbers = [9, 8, 7, 6, 5];
+
+// if (userNumber <= 0 || isNaN(userNumber)) {
+//   console.log("Неверное значение");
+// } else if (userNumber >= 1 || userNumber <= 10) {
+//  let search = numbers.includes(userNumber);
+//  console.log(search);
 // }
 
-// const circle1 = {
-//   radius: 5,
 
-//   getArea: getCircleArea,
-//   getPerimeter: getCirclePerimeter,
-// };
 
-// const circle2 = {
-//   radius: 7,
+// function reverseString(str) {
+//   return console.log(str.split('').reverse().join(''));
+// }
+//  reverseString("abcdef");
 
-//   getArea: getCircleArea,
-//   getPerimeter: getCirclePerimeter,
-// };
 
-// console.log(circle1.getArea());
-// console.log(circle1.getPerimeter());
-// console.log(circle2.getArea());
-// console.log(circle2.getPerimeter());
+// let array = [[1, 2, 3,],[4, 5, 6]];
+// console.log(array.reduce((flat, current) => flat.concat(current, [])));
+
+// let array = [3, 8, 6, 1, 9, 5, 10, 7, 4, 2];
+// for(i = 0; i < (array.length - 1); i++) {
+// console.log(array[i] + array[i + 1]);
+// }
+
+
+// const square = [3, 8, 6, 1, 9, 5, 10, 7, 4, 2];
+// let result = square.map(item => (item ** 2));
+// console.log(result);
+
+
+// const getLengthWords = result => result.map(str => str.length);
+// console.log(getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']));
+
+
+const newNumbs = numbs => numbs.filter(el => (el < 0));
+console.log(newNumbs([3, -8, 6, 1, -9, 5, -10, 7, 4, 2]));
+
+
+
+
+
+
