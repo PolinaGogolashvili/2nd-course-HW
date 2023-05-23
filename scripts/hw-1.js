@@ -19,4 +19,8 @@
 
 
 
-console.log(Math.ceil(32.58884));
+// console.log(Math.ceil(32.58884));
+
+
+
+console.log(Math.round(32.58884));
