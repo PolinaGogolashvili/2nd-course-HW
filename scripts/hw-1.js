@@ -15,4 +15,8 @@
 
 
 
-console.log(Math.floor(32.58884));
+// console.log(Math.floor(32.58884));
+
+
+
+console.log(Math.ceil(32.58884));
