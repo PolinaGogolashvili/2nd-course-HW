@@ -31,9 +31,20 @@
 
 
 
-function getRandomIntInclusive(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+// function getRandomIntInclusive(min, max) {
+//   min = Math.ceil(min);
+//   max = Math.floor(max);
+//   return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+// console.log(getRandomIntInclusive(1, 10));
+
+
+
+function getRandomNum(maxValue) {
+  const numbs = [];
+  for(let i = 0; i < Math.floor(maxValue / 2); i++) {
+    numbs[i] = Math.floor(Math.random() * maxValue);
+  }
+  return numbs;
 }
-console.log(getRandomIntInclusive(1, 10));
+console.log(getRandomNum(10));
