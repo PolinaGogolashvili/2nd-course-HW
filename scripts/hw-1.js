@@ -25,6 +25,15 @@
 
 
 
-console.log(Math.max(52, 53, 49, 77, 21, 32));
+// console.log(Math.max(52, 53, 49, 77, 21, 32));
 
-console.log(Math.min(52, 53, 49, 77, 21, 32));
+// console.log(Math.min(52, 53, 49, 77, 21, 32));
+
+
+
+function getRandomIntInclusive(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+console.log(getRandomIntInclusive(1, 10));
