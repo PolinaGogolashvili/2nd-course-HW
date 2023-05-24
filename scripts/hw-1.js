@@ -40,11 +40,19 @@
 
 
 
-function getRandomNum(maxValue) {
-  const numbs = [];
-  for(let i = 0; i < Math.floor(maxValue / 2); i++) {
-    numbs[i] = Math.floor(Math.random() * maxValue);
-  }
-  return numbs;
+// function getRandomNum(maxValue) {
+//   const numbs = [];
+//   for(let i = 0; i < Math.floor(maxValue / 2); i++) {
+//     numbs[i] = Math.floor(Math.random() * maxValue);
+//   }
+//   return numbs;
+// }
+// console.log(getRandomNum(10));
+
+
+
+function getRandomNum(min, max) {
+  let result =  min + Math.random() * (max + 1 - min);
+  return Math.floor(result);
 }
-console.log(getRandomNum(10));
+console.log(getRandomNum(5, 8));
