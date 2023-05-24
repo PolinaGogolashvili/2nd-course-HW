@@ -84,9 +84,20 @@ let fullDate =
   " " +
   currentDate.getFullYear() +
   " - это " +
-  days[currentDate.getDay()]; +
-  "Время : " +
-  currentDate.getHours() +
-  currentDate.getMinutes() +
-  currentDate.getSeconds()
+  days[currentDate.getDay()];
+
+let hour = currentDate.getHours(); 
+let minute = currentDate.getMinutes();
+let second = currentDate.getSeconds();
+
+if (minute < 10) { 
+	minute = "0" + minute;
+}
+if (second < 10) { 
+	second = "0" + second;
+}
+
+let fullTime = "Время : " + hour + ':' + minute + ':' + second;
+
 console.log(fullDate);
+console.log(fullTime);
