@@ -51,8 +51,13 @@
 
 
 
-function getRandomNum(min, max) {
-  let result =  min + Math.random() * (max + 1 - min);
-  return Math.floor(result);
-}
-console.log(getRandomNum(5, 8));
+// function getRandomNum(min, max) {
+//   let result =  min + Math.random() * (max + 1 - min);
+//   return Math.floor(result);
+// }
+// console.log(getRandomNum(5, 8));
+
+
+
+let currentDate = new Date();
+console.log(currentDate);
