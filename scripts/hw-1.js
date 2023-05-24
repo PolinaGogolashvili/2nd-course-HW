@@ -59,5 +59,12 @@
 
 
 
+// let currentDate = new Date();
+// console.log(currentDate);
+
+
+
 let currentDate = new Date();
+currentDate.setDate(73);
 console.log(currentDate);
+
