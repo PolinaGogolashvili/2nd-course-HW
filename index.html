@@ -77,7 +77,46 @@
             При нажатии на кнопку играть, вы увидите несколько слов, которые вам
             необходимо запомнить.
           </p>
-          <button class="words__content_button">Играть!</button>
+          <button onclick="wordsGame()" class="words__content_button">Играть!</button>
+          <script>
+            function wordsGame() {
+              let fruits = [
+                "Яблоко",
+                "Груша",
+                "Дыня",
+                "Виноград",
+                "Персик",
+                "Апельсин",
+                "Мандарин",
+              ];
+              fruits = fruits.sort(() => Math.random() - 0.5);
+              alert(fruits);
+              let InputFruitsFirst = prompt(
+                "Чему равнялся первый элемент массива?"
+              );
+              let InputFruitsLast = prompt(
+                "Чему равнялся последний элемент массива?"
+              );
+              if (
+                InputFruitsFirst === fruits[0] &&
+                InputFruitsLast === fruits[6]
+              ) {
+                alert("Поздравляем! Вы угадали оба элемента!");
+              } else if (
+                InputFruitsFirst !== fruits[0] &&
+                InputFruitsLast === fruits[6]
+              ) {
+                alert("Вы были близки к победе!");
+              } else if (
+                InputFruitsFirst === fruits[0] &&
+                InputFruitsLast !== fruits[6]
+              ) {
+                alert("Вы были близки к победе!");
+              } else {
+                alert("Вы ответили неверно! Попробуйте ещё раз!");
+              }
+            }
+          </script>
         </div>
       </div>
 
