@@ -10,14 +10,24 @@
 
 
 
-function isPositive() {
-  // писать код тут
+function isPositive(number) {
+  if (number > 0) {
+    return number; 
   }
-  function isMale() {
-  // писать код тут
+}
+
+  function isMale(name, gender) {
+    if (gender === 'male') {
+      return name + gender; 
+    } 
   }
-  function filter() {
-  // писать код тут
+  function filter(arr, ruleFunction) {
+    const output = [];
+    for (let i = 0; i < arr.length; i++) {
+      output.push(ruleFunction(arr[i]));
+    }
+  
+    return output;
   }
   
   console.log(filter([3, -4, 1, 9], isPositive));
