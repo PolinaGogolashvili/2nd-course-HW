@@ -28,14 +28,14 @@
 // }
 // console.log(getRandomIntInclusive(1, 10));
 
-function getRandomArr(maxValue) {
-  const numbs = [];
-  for(let i = 0; i < Math.floor(maxValue / 2); i++) {
-    numbs[i] = Math.floor(Math.random() * maxValue);
-  }
-  return numbs;
-}
-console.log(getRandomArr(10));
+// function getRandomArr(maxValue) {
+//   const numbs = [];
+//   for(let i = 0; i < Math.floor(maxValue / 2); i++) {
+//     numbs[i] = Math.floor(Math.random() * maxValue);
+//   }
+//   return numbs;
+// }
+// console.log(getRandomArr(10));
 
 // function getRandomNum(min, max) {
 //   let result =  min + Math.random() * (max + 1 - min);
