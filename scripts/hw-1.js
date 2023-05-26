@@ -16,17 +16,21 @@
 //   }
 // }
 
-//   function isMale(name, gender) {
-//     if (gender === 'male') {
-//       return name + gender; 
-//     } 
+//   function isMale(name, gender, key) {
+//     if (name[key] === 'Глеб' && name[key] === 'Олег') {
+//       return name;
+//     } else if (gender[key] === 'male') {
+//       return gender
+//     }
 //   }
+
 //   function filter(arr, ruleFunction) {
 //     const output = [];
 //     for (let i = 0; i < arr.length; i++) {
+//       if (ruleFunction(arr[i])) {
 //       output.push(ruleFunction(arr[i]));
 //     }
-  
+//     }
 //     return output;
 //   }
   
@@ -60,11 +64,29 @@
 
 
 
-function delayForSecond(callback) {
-  setTimeout(callback, 1000);
-  callback();
+
+// function delayForSecond(callback) {
+//   setTimeout(callback, 1000);
+//   callback();
+// }
+
+// delayForSecond(function() {
+//   console.log('Привет, Глеб!');
+// });
+
+
+
+
+function delayForSecond(cb) {
+  setTimeout(() => {
+      console.log('Прошла одна секунда');
+      if(cb) { 	cb(); }
+  }, 1000)
 }
 
-delayForSecond(function() {
-  console.log('Привет, Глеб!');
-});
+function sayHi (name) {
+  console.log(`Привет, ${name}!`);
+}
+
+delayForSecond();
+sayHi('Глеб');
