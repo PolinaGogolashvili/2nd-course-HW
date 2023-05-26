@@ -44,14 +44,27 @@
 
 
 
-const timer = (deadline) => {
-  const interval = setInterval(() => {
-		let currentDate = new Date;
-	console.log(currentDate);
-	}, 3000);
-  setTimeout(() => {
-    clearInterval(interval);
-    console.log('30 секунд прошло')
-  }, deadline * 3000)
-};
-timer(30);
+// const timer = (deadline) => {
+//   const interval = setInterval(() => {
+// 		let currentDate = new Date;
+// 	console.log(currentDate);
+// 	}, 3000);
+
+//   setTimeout(() => {
+//     clearInterval(interval);
+//     console.log('30 секунд прошло')
+//   }, deadline * 3000)
+// };
+
+// timer(30);
+
+
+
+function delayForSecond(callback) {
+  setTimeout(callback, 1000);
+  callback();
+}
+
+delayForSecond(function() {
+  console.log('Привет, Глеб!');
+});
