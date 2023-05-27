@@ -62,26 +62,25 @@
 
 
 
-function delayForSecond(callback) {
- setTimeout(callback, 1000);
+// function delayForSecond(callback) {
+//  setTimeout(callback, 1000);
+// }
+
+// delayForSecond(function() {
+//  console.log('Привет, Глеб!');
+// });
+
+
+
+function delayForSecond(cb) {
+setTimeout(() => {
+ console.log('Прошла одна секунда');
+ if(cb) { cb(); }
+ }, 1000)
 }
 
-delayForSecond(function() {
- console.log('Привет, Глеб!');
-});
 
-
-
-// function delayForSecond(cb) {
-// setTimeout(() => {
-//  console.log('Прошла одна секунда');
-//  if(cb) { cb(); }
-//  }, 1000)
-// }
-
-// function sayHi (name) {
-// console.log(`Привет, ${name}!`);
-// }
-
-// delayForSecond();
-// sayHi('Глеб');
+delayForSecond(function sayHi (name = 'Глеб') {
+  console.log(`Привет, ${name}!`);
+  });
+  
