@@ -6,37 +6,37 @@
 // ];
 // console.log(people.sort((a, b) => a.age > b.age ? 1 : -1));
 
-function isPositive(number) {
-  if (number > 0) {
-    return number;
-  }
-}
+// function isPositive(number) {
+//   if (number > 0) {
+//     return number;
+//   }
+// }
 
-function isMale(user) {
-  if (user.gender === 'male') {
-    return user;
-}
-}
+// function isMale(user) {
+//   if (user.gender === 'male') {
+//     return user;
+// }
+// }
 
-function filter(arr, ruleFunction) {
-  const output = [];
-  for (let i = 0; i < arr.length; i++) {
-    if (ruleFunction(arr[i])) {
-      output.push(ruleFunction(arr[i]));
-    }
-  }
-  return output;
-}
+// function filter(arr, ruleFunction) {
+//   const output = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (ruleFunction(arr[i])) {
+//       output.push(ruleFunction(arr[i]));
+//     }
+//   }
+//   return output;
+// }
 
-console.log(filter([3, -4, 1, 9], isPositive));
+// console.log(filter([3, -4, 1, 9], isPositive));
 
-const people = [
-  { name: "Глеб", gender: "male" },
-  { name: "Анна", gender: "female" },
-  { name: "Олег", gender: "male" },
-  { name: "Оксана", gender: "female" },
-];
-console.log(filter(people, isMale));
+// const people = [
+//   { name: "Глеб", gender: "male" },
+//   { name: "Анна", gender: "female" },
+//   { name: "Олег", gender: "male" },
+//   { name: "Оксана", gender: "female" },
+// ];
+// console.log(filter(people, isMale));
 
 // const timer = (deadline) => {
 //   const interval = setInterval(() => {
