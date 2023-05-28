@@ -100,18 +100,18 @@
                 "Чему равнялся последний элемент массива?"
               );
               if (
-                inputFruitsFirst === fruits[0].toLowerCase() &&
-                inputFruitsLast === fruits[6].toLowerCase()
+                inputFruitsFirst.toLowerCase() === fruits[0].toLowerCase() &&
+                inputFruitsLast.toLowerCase() === fruits[6].toLowerCase()
               ) {
                 alert("Поздравляем! Вы угадали оба элемента!");
               } else if (
-                inputFruitsFirst !== fruits[0].toLowerCase() &&
-                inputFruitsLast === fruits[6].toLowerCase()
+                inputFruitsFirst.toLowerCase() !== fruits[0].toLowerCase() &&
+                inputFruitsLast.toLowerCase() === fruits[6].toLowerCase()
               ) {
                 alert("Вы были близки к победе!");
               } else if (
-                inputFruitsFirst === fruits[0].toLowerCase() &&
-                inputFruitsLast !==
+                inputFruitsFirst.toLowerCase() === fruits[0].toLowerCase() &&
+                inputFruitsLast.toLowerCase() !==
                   fruits[6].toLowerCase()
               ) {
                 alert("Вы были близки к победе!");
