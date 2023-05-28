@@ -91,25 +91,25 @@
               ];
               fruits = fruits.sort(() => Math.random() - 0.5);
               alert(fruits);
-              let InputFruitsFirst = prompt(
+              let inputFruitsFirst = prompt(
                 "Чему равнялся первый элемент массива?"
               );
-              let InputFruitsLast = prompt(
+              let inputFruitsLast = prompt(
                 "Чему равнялся последний элемент массива?"
               );
               if (
-                InputFruitsFirst === fruits[0] &&
-                InputFruitsLast === fruits[6]
+                inputFruitsFirst.toLowerCase() === fruits[0].toLowerCase() &&
+                inputFruitsLast.toLowerCase() === fruits[6].toLowerCase()
               ) {
                 alert("Поздравляем! Вы угадали оба элемента!");
               } else if (
-                InputFruitsFirst !== fruits[0] &&
-                InputFruitsLast === fruits[6]
+                inputFruitsFirst.toLowerCase() !== fruits[0].toLowerCase() &&
+                inputFruitsLast.toLowerCase() === fruits[6].toLowerCase()
               ) {
                 alert("Вы были близки к победе!");
               } else if (
-                InputFruitsFirst === fruits[0] &&
-                InputFruitsLast !== fruits[6]
+                inputFruitsFirst.toLowerCase() === fruits[0].toLowerCase() &&
+                inputFruitsLast.toLowerCase() !== fruits[6].toLowerCase()
               ) {
                 alert("Вы были близки к победе!");
               } else {
